@@ -1,0 +1,7 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+ul li {list-style:none;}
+.wrap-outlet{width:100%;margin:0 auto;}
+.mid-show{width:100%;position:relative;margin-top:17%;text-align:center;}
+.mid-show span{font-size:45px;color:#0c54a5;}

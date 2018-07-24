@@ -1,0 +1,16 @@
+<nav class="wrap-side-nav">
+	<ul class="navs">
+		<li [routerLink]="['/home', {outlets: {'routerHome': ['/']}}]" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{ exact: true }"><a>
+			<span class="fa fa-dashboard"></span>Dashboard</a>
+		</li>
+		<li [routerLink]="['/home', {outlets: {'routerHome': ['business']}}]" [routerLinkActive]="['router-link-active']"><a>
+			<span class="fa fa-university"></span>Business</a>
+		</li>
+		<li [routerLink]="['/home', {outlets: {'routerHome': ['quality']}}]" [routerLinkActive]="['router-link-active']"><a>
+		<span class="fa fa-diamond"></span>Quality</a>
+		</li>
+		<li [routerLink]="['/home', {outlets: {'routerHome': ['cost']}}]" [routerLinkActive]="['router-link-active']"><a>
+		<span class="fa fa-money"></span>Report</a>
+		</li>
+	</ul>
+</nav>
